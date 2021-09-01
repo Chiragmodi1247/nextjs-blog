@@ -7,7 +7,7 @@ function PostHeader (props) {
 
   return <header className={classes.header}>
     <h1>{title}</h1>
-    <Image src={image} height={150} width={200} alt={title} />
+    <Image src={image} height={250} width={400} alt={title} />
   </header>
 }
 

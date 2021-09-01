@@ -6,11 +6,11 @@ function Hero () {
   return (
     <section className={classes.hero}>
       <div className={classes.image} >
-        <Image src="/images/site/max.png" alt="max" width={300} height={300} />
+        <Image src="/images/site/chirag.png" alt="max" width={300} height={300} />
       </div>
-      <h1>Hi, I'm Max</h1>
+      <h1>Hi, I'm Chirag</h1>
       <p>
-        I blog about web development like React or VueJs
+        I upload blog about tech from famous blogs sites like Techcrunch
       </p>
     </section>
   )

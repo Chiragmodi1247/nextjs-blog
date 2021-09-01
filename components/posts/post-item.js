@@ -20,10 +20,10 @@ function PostItem (props) {
       <Link href={linkPath}>
         <a>
           <div className={classes.image}>
-            <Image src={imagePath} alt={title} height={300} width={200} layout='responsive' />
+            <Image src={imagePath} alt={title} height={200} width={300} layout='responsive' />
           </div>
           <div className={classes.content} >
-            <h3>Title</h3>
+            <h3>{title}</h3>
             <time>{formattedDate}</time>
             <p>{excerpt}</p>
           </div>
